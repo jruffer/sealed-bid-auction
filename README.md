@@ -200,7 +200,7 @@ replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alp
 ignite scaffold list auction name startPrice:coin duration:uint createdAt:uint currentHighestBidId:uint highestBidExists:bool ended:bool --module auction --no-simulation
 ```
 
-1. Create bid types & message for user to place bid
+2. Create bid types & message for user to place bid
 
 ```bash
 ignite scaffold list bid auctionId:uint bidPrice:coin --module auction --no-simulation
